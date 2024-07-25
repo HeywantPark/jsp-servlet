@@ -1,4 +1,5 @@
 package org.scoula.demo;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.WebServlet;
@@ -14,7 +15,7 @@ public class ResponseServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("");
+        out.println("<h1>안녕하시오!!</h1>");
         out.println("</body></html>");
     }
 
